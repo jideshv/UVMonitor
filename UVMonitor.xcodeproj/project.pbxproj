@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29949E1B1CDF177700E1560D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29949E1A1CDF177700E1560D /* AppDelegate.swift */; };
+		29949E1D1CDF177700E1560D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29949E1C1CDF177700E1560D /* ViewController.swift */; };
+		29949E201CDF177700E1560D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29949E1E1CDF177700E1560D /* Main.storyboard */; };
+		29949E221CDF177700E1560D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29949E211CDF177700E1560D /* Assets.xcassets */; };
+		29949E251CDF177700E1560D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29949E231CDF177700E1560D /* LaunchScreen.storyboard */; };
+		29949E301CDF177700E1560D /* UVMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29949E2F1CDF177700E1560D /* UVMonitorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29949E2C1CDF177700E1560D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29949E0F1CDF177700E1560D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29949E161CDF177700E1560D;
+			remoteInfo = UVMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29949E171CDF177700E1560D /* UVMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29949E1A1CDF177700E1560D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29949E1C1CDF177700E1560D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29949E1F1CDF177700E1560D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29949E211CDF177700E1560D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29949E241CDF177700E1560D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29949E261CDF177700E1560D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29949E2B1CDF177700E1560D /* UVMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UVMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29949E2F1CDF177700E1560D /* UVMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVMonitorTests.swift; sourceTree = "<group>"; };
+		29949E311CDF177700E1560D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29949E141CDF177700E1560D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29949E281CDF177700E1560D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29949E0E1CDF177700E1560D = {
+			isa = PBXGroup;
+			children = (
+				29949E191CDF177700E1560D /* UVMonitor */,
+				29949E2E1CDF177700E1560D /* UVMonitorTests */,
+				29949E181CDF177700E1560D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29949E181CDF177700E1560D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29949E171CDF177700E1560D /* UVMonitor.app */,
+				29949E2B1CDF177700E1560D /* UVMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29949E191CDF177700E1560D /* UVMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				29949E1A1CDF177700E1560D /* AppDelegate.swift */,
+				29949E1C1CDF177700E1560D /* ViewController.swift */,
+				29949E1E1CDF177700E1560D /* Main.storyboard */,
+				29949E211CDF177700E1560D /* Assets.xcassets */,
+				29949E231CDF177700E1560D /* LaunchScreen.storyboard */,
+				29949E261CDF177700E1560D /* Info.plist */,
+			);
+			path = UVMonitor;
+			sourceTree = "<group>";
+		};
+		29949E2E1CDF177700E1560D /* UVMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				29949E2F1CDF177700E1560D /* UVMonitorTests.swift */,
+				29949E311CDF177700E1560D /* Info.plist */,
+			);
+			path = UVMonitorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29949E161CDF177700E1560D /* UVMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29949E341CDF177700E1560D /* Build configuration list for PBXNativeTarget "UVMonitor" */;
+			buildPhases = (
+				29949E131CDF177700E1560D /* Sources */,
+				29949E141CDF177700E1560D /* Frameworks */,
+				29949E151CDF177700E1560D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVMonitor;
+			productName = UVMonitor;
+			productReference = 29949E171CDF177700E1560D /* UVMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29949E2A1CDF177700E1560D /* UVMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29949E371CDF177700E1560D /* Build configuration list for PBXNativeTarget "UVMonitorTests" */;
+			buildPhases = (
+				29949E271CDF177700E1560D /* Sources */,
+				29949E281CDF177700E1560D /* Frameworks */,
+				29949E291CDF177700E1560D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29949E2D1CDF177700E1560D /* PBXTargetDependency */,
+			);
+			name = UVMonitorTests;
+			productName = UVMonitorTests;
+			productReference = 29949E2B1CDF177700E1560D /* UVMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29949E0F1CDF177700E1560D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Prenetics;
+				TargetAttributes = {
+					29949E161CDF177700E1560D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					29949E2A1CDF177700E1560D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 29949E161CDF177700E1560D;
+					};
+				};
+			};
+			buildConfigurationList = 29949E121CDF177700E1560D /* Build configuration list for PBXProject "UVMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29949E0E1CDF177700E1560D;
+			productRefGroup = 29949E181CDF177700E1560D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29949E161CDF177700E1560D /* UVMonitor */,
+				29949E2A1CDF177700E1560D /* UVMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29949E151CDF177700E1560D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29949E251CDF177700E1560D /* LaunchScreen.storyboard in Resources */,
+				29949E221CDF177700E1560D /* Assets.xcassets in Resources */,
+				29949E201CDF177700E1560D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29949E291CDF177700E1560D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29949E131CDF177700E1560D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29949E1D1CDF177700E1560D /* ViewController.swift in Sources */,
+				29949E1B1CDF177700E1560D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29949E271CDF177700E1560D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29949E301CDF177700E1560D /* UVMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29949E2D1CDF177700E1560D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29949E161CDF177700E1560D /* UVMonitor */;
+			targetProxy = 29949E2C1CDF177700E1560D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29949E1E1CDF177700E1560D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29949E1F1CDF177700E1560D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29949E231CDF177700E1560D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29949E241CDF177700E1560D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29949E321CDF177700E1560D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29949E331CDF177700E1560D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29949E351CDF177700E1560D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UVMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prenetics.UVMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29949E361CDF177700E1560D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UVMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prenetics.UVMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29949E381CDF177700E1560D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UVMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prenetics.UVMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UVMonitor.app/UVMonitor";
+			};
+			name = Debug;
+		};
+		29949E391CDF177700E1560D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UVMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prenetics.UVMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UVMonitor.app/UVMonitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29949E121CDF177700E1560D /* Build configuration list for PBXProject "UVMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29949E321CDF177700E1560D /* Debug */,
+				29949E331CDF177700E1560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29949E341CDF177700E1560D /* Build configuration list for PBXNativeTarget "UVMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29949E351CDF177700E1560D /* Debug */,
+				29949E361CDF177700E1560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29949E371CDF177700E1560D /* Build configuration list for PBXNativeTarget "UVMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29949E381CDF177700E1560D /* Debug */,
+				29949E391CDF177700E1560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29949E0F1CDF177700E1560D /* Project object */;
+}
