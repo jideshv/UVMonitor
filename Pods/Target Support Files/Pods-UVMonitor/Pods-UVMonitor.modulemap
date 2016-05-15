@@ -1,0 +1,6 @@
+framework module Pods_UVMonitor {
+  umbrella header "Pods-UVMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

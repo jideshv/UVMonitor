@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14586FD8152888B4FDBE7114 /* Pods_UVMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE42152EB64B1CB23922C0F /* Pods_UVMonitorTests.framework */; };
+		292D627D1CE86C1100076510 /* DisconnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D627C1CE86C1100076510 /* DisconnectedViewController.swift */; };
+		297F7EDD1CDF2AD00010F0C3 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297F7EDB1CDF2AD00010F0C3 /* Fabric.framework */; };
+		297F7EDE1CDF2AD00010F0C3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297F7EDC1CDF2AD00010F0C3 /* Crashlytics.framework */; };
 		29949E1B1CDF177700E1560D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29949E1A1CDF177700E1560D /* AppDelegate.swift */; };
 		29949E1D1CDF177700E1560D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29949E1C1CDF177700E1560D /* ViewController.swift */; };
 		29949E201CDF177700E1560D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29949E1E1CDF177700E1560D /* Main.storyboard */; };
 		29949E221CDF177700E1560D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29949E211CDF177700E1560D /* Assets.xcassets */; };
 		29949E251CDF177700E1560D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29949E231CDF177700E1560D /* LaunchScreen.storyboard */; };
 		29949E301CDF177700E1560D /* UVMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29949E2F1CDF177700E1560D /* UVMonitorTests.swift */; };
+		822D5EB64DB456B232231CF5 /* Pods_UVMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB486C6C7CE3126D2FD90FCA /* Pods_UVMonitor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071D93200045D680D9F3E7C3 /* Pods-UVMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVMonitorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UVMonitorTests/Pods-UVMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		292D627C1CE86C1100076510 /* DisconnectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisconnectedViewController.swift; sourceTree = "<group>"; };
+		297F7EDB1CDF2AD00010F0C3 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		297F7EDC1CDF2AD00010F0C3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		29949E171CDF177700E1560D /* UVMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29949E1A1CDF177700E1560D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29949E1C1CDF177700E1560D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,11 @@
 		29949E2B1CDF177700E1560D /* UVMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UVMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29949E2F1CDF177700E1560D /* UVMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVMonitorTests.swift; sourceTree = "<group>"; };
 		29949E311CDF177700E1560D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64311D498DBBCEB62C9ACE43 /* Pods-UVMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UVMonitor/Pods-UVMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE42152EB64B1CB23922C0F /* Pods_UVMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UVMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4CB246181690CD80AD19E1 /* Pods-UVMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-UVMonitor/Pods-UVMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		DB486C6C7CE3126D2FD90FCA /* Pods_UVMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UVMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD0CA9C7A1577F7D197BD4A /* Pods-UVMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVMonitorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UVMonitorTests/Pods-UVMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297F7EDE1CDF2AD00010F0C3 /* Crashlytics.framework in Frameworks */,
+				297F7EDD1CDF2AD00010F0C3 /* Fabric.framework in Frameworks */,
+				822D5EB64DB456B232231CF5 /* Pods_UVMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +67,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14586FD8152888B4FDBE7114 /* Pods_UVMonitorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20AE8C5810C839ED9EB091CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64311D498DBBCEB62C9ACE43 /* Pods-UVMonitor.debug.xcconfig */,
+				CB4CB246181690CD80AD19E1 /* Pods-UVMonitor.release.xcconfig */,
+				071D93200045D680D9F3E7C3 /* Pods-UVMonitorTests.debug.xcconfig */,
+				FDD0CA9C7A1577F7D197BD4A /* Pods-UVMonitorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		29949E0E1CDF177700E1560D = {
 			isa = PBXGroup;
 			children = (
+				297F7EDB1CDF2AD00010F0C3 /* Fabric.framework */,
+				297F7EDC1CDF2AD00010F0C3 /* Crashlytics.framework */,
 				29949E191CDF177700E1560D /* UVMonitor */,
 				29949E2E1CDF177700E1560D /* UVMonitorTests */,
 				29949E181CDF177700E1560D /* Products */,
+				20AE8C5810C839ED9EB091CF /* Pods */,
+				2A9B288CFAE8CE9C2ADE5771 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +116,7 @@
 				29949E211CDF177700E1560D /* Assets.xcassets */,
 				29949E231CDF177700E1560D /* LaunchScreen.storyboard */,
 				29949E261CDF177700E1560D /* Info.plist */,
+				292D627C1CE86C1100076510 /* DisconnectedViewController.swift */,
 			);
 			path = UVMonitor;
 			sourceTree = "<group>";
@@ -96,6 +130,15 @@
 			path = UVMonitorTests;
 			sourceTree = "<group>";
 		};
+		2A9B288CFAE8CE9C2ADE5771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB486C6C7CE3126D2FD90FCA /* Pods_UVMonitor.framework */,
+				7BE42152EB64B1CB23922C0F /* Pods_UVMonitorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +146,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29949E341CDF177700E1560D /* Build configuration list for PBXNativeTarget "UVMonitor" */;
 			buildPhases = (
+				8D20F0537B03F1AD98C62AAD /* 📦 Check Pods Manifest.lock */,
 				29949E131CDF177700E1560D /* Sources */,
 				29949E141CDF177700E1560D /* Frameworks */,
 				29949E151CDF177700E1560D /* Resources */,
+				7074164C72EA2D3980449D8B /* 📦 Embed Pods Frameworks */,
+				BECDFAFBF8946FB20D97DB92 /* 📦 Copy Pods Resources */,
+				297F7EDA1CDF2A800010F0C3 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -120,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29949E371CDF177700E1560D /* Build configuration list for PBXNativeTarget "UVMonitorTests" */;
 			buildPhases = (
+				5C01CECB820C876E360EFDD5 /* 📦 Check Pods Manifest.lock */,
 				29949E271CDF177700E1560D /* Sources */,
 				29949E281CDF177700E1560D /* Frameworks */,
 				29949E291CDF177700E1560D /* Resources */,
+				B6460BBDBDA042773DAB76A7 /* 📦 Embed Pods Frameworks */,
+				ACE9357277D136255729E4F7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +196,7 @@
 				TargetAttributes = {
 					29949E161CDF177700E1560D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5DSCMY52MX;
 					};
 					29949E2A1CDF177700E1560D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -192,12 +243,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		297F7EDA1CDF2A800010F0C3 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 46aaddcecd6b87dfcf54d11ee8c2981edd9503f2 2fdf4014f3e7a2f5d34cb86483587ed320aa26d017d91c367ee0a87808e2cbdf";
+		};
+		5C01CECB820C876E360EFDD5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7074164C72EA2D3980449D8B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVMonitor/Pods-UVMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D20F0537B03F1AD98C62AAD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE9357277D136255729E4F7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVMonitorTests/Pods-UVMonitorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6460BBDBDA042773DAB76A7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVMonitorTests/Pods-UVMonitorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECDFAFBF8946FB20D97DB92 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVMonitor/Pods-UVMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		29949E131CDF177700E1560D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				29949E1D1CDF177700E1560D /* ViewController.swift in Sources */,
+				292D627D1CE86C1100076510 /* DisconnectedViewController.swift in Sources */,
 				29949E1B1CDF177700E1560D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,28 +486,52 @@
 		};
 		29949E351CDF177700E1560D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64311D498DBBCEB62C9ACE43 /* Pods-UVMonitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UVMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prenetics.UVMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		29949E361CDF177700E1560D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4CB246181690CD80AD19E1 /* Pods-UVMonitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UVMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prenetics.UVMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		29949E381CDF177700E1560D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071D93200045D680D9F3E7C3 /* Pods-UVMonitorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = UVMonitorTests/Info.plist;
@@ -361,6 +544,7 @@
 		};
 		29949E391CDF177700E1560D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD0CA9C7A1577F7D197BD4A /* Pods-UVMonitorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = UVMonitorTests/Info.plist;
@@ -390,6 +574,7 @@
 				29949E361CDF177700E1560D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29949E371CDF177700E1560D /* Build configuration list for PBXNativeTarget "UVMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +583,7 @@
 				29949E391CDF177700E1560D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
